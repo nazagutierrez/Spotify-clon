@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       backgroundColor: {
-        "secondary" : "#121212",
+        "main" : "#121212",
         "default-color": "#535353"
       },
       width: {

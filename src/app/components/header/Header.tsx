@@ -1,12 +1,13 @@
+import ArrowButtons from '@/app/login/buttons/Arrow-buttons'
 import LoginButton from '@/app/login/buttons/Login-button'
 import React from 'react'
 
 const Header = () => {
   return (
-    <header className='absolute flex justify-between px-5 bg-slate-600 w-full mt-2 overflow-hidden p-3 h-16 rounded-lg rounded-b-none text-aside-color'>
+    <header className='absolute flex items-center justify-between px-5 bg-main w-full mt-2 overflow-hidden p-3 h-16 rounded-lg rounded-b-none'>
         <div>
-          <button>{"<"}</button>
-          <button>{">"}</button>
+          <ArrowButtons buttonProp="greater"/>
+          <ArrowButtons buttonProp="less" />
         </div>
         <div>
           <LoginButton buttonProp="register"/>
