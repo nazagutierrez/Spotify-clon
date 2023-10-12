@@ -8,6 +8,12 @@
     }
 }
 
+.bg-login {
+  background-color: #121212;
+  opacity: 1;
+  background-image: radial-gradient(#103b20 0.8px, #121212 0.8px);
+  background-size: 16px 16px;
+}
 * {
     scrollbar-width: 10px;
     scrollbar-color: rgb(50, 50, 50) rgb(30, 30, 30);

@@ -16,7 +16,8 @@ const config: Config = {
         "aside" : "30%"
       },
       textColor: {
-        "aside-color" : "rgb(209 213 219 / 0.8)"
+        "aside-color" : "rgb(209 213 219 / 0.8)",
+        "darker-white" : "rgb(230 230 230)"
       },
       maxHeight: {
         "home": "57.2rem"

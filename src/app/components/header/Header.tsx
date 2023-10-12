@@ -1,5 +1,5 @@
-import ArrowButtons from '@/app/login/buttons/Arrow-buttons'
-import LoginButton from '@/app/login/buttons/Login-button'
+import ArrowButtons from '@/app/components/header/buttons/Arrow-buttons'
+import LoginButton from '@/app/components/header/buttons/Login-button'
 import React from 'react'
 
 const Header = () => {
