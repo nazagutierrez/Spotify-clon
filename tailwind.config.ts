@@ -20,7 +20,8 @@ const config: Config = {
         "darker-white" : "rgb(230 230 230)"
       },
       maxHeight: {
-        "home": "57.2rem"
+        "home": "57.2rem",
+        "playlist-aside": "44.4rem"
       }
     },
   },

@@ -12,13 +12,11 @@ const LoginButton = ({ buttonProp }: { buttonProp: buttonType }) => {
     <>
       {isLogged ? (
         buttonProp === "register" && (
-          <>
             <button className="text-4xl text-white">
               <i>
                 <MdAccountCircle />
               </i>
             </button>
-          </>
         )
       ) : (
         <>
