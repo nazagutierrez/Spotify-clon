@@ -6,8 +6,8 @@ export const AsideListPlaylists = () => {
   return (
     <ul>
       {playlists.map((playlist) => (
-        <li key={playlist.id} className="my-3">
-            <AsidePlaylist img={playlist.img} title={playlist.title} artists={playlist.artists } />
+        <li key={playlist.id} className="my-5">
+            <AsidePlaylist img={playlist.img} title={playlist.title} genre={playlist.genre} id={playlist.id} />
         </li>
       ))}
     </ul>

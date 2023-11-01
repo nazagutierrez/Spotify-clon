@@ -22,12 +22,12 @@ const Aside = () => {
           Buscar
         </button>
       </section>
-      <section className="bg-main w-full p-5 flex flex-col rounded-lg">
+      <section className="bg-main mb-4 w-full p-5 flex flex-col rounded-lg">
         <div className="flex items-center gap-2">
           <i className="text-2xl"><LuLibrary /></i>
           <p>Tu biblioteca</p>
         </div>
-        <div className="h-full mt-5 bg-main max-h-playlist-aside overflow-y-scroll">
+        <div className="mt-5 bg-main max-h-playlist-aside min-h-playlist-aside overflow-y-scroll">
           <AsideListPlaylists />
         </div>
       </section>

@@ -22,6 +22,9 @@ const config: Config = {
       maxHeight: {
         "home": "57.2rem",
         "playlist-aside": "44.4rem"
+      },
+      minHeight: {
+        "playlist-aside": "44.4rem"
       }
     },
   },
