@@ -7,7 +7,7 @@ const AuthPage = ({ loginPropType }: { loginPropType: loginType }) => {
   const isLogin = loginPropType === "login";
 
   return (
-    <section className="bg-gray-50 dark:bg-gray-900 my-2 rounded-lg h-full bg-login text-darker-white">
+    <section className="bg-gray-50 dark:bg-gray-900 my-2 rounded-lg h-full max-h-home min-h-home bg-login text-darker-white">
       <article className="flex flex-col items-center justify-center px-6 py-8 mx-auto h-full lg:py-0">
         <div className="w-full bg-white rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-neutral-900/80 dark:border-green-950 p-6 space-y-4 md:space-y-6 sm:p-8">
           <div className="p-6 space-y-4 md:space-y-6 sm:p-8">

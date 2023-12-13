@@ -1,14 +1,16 @@
 import * as React from "react";
 import { Song } from "@/db/localDatabase";
 import { BiTimeFive } from "react-icons/bi";
+import PlayButtonSong from "./PlayButtonSong";
 
-export default function SongsTable({ songs }: { songs: Song[] }) {
+export default function SongsTable({ songs, paramId }: { songs: Song[], paramId: string | number }) {
   return (
     <>
       <table className="table-auto text-left min-w-full divide-y divide-gray-500/20">
         <thead>
           <tr className="text-zinc-400 text-sm font-light">
             <th className="px-4 py-2">#</th>
+            <th className="px-4 py-2"></th>
             <th className="px-4 py-2">Título</th>
             <th className="px-4 py-2 text-xl"><BiTimeFive /></th>
           </tr>
@@ -23,6 +25,9 @@ export default function SongsTable({ songs }: { songs: Song[] }) {
             >
               <td className="px-4 py-2 rounded-tl-lg rounded-bl-lg w-5">
                 {index + 1}
+              </td>
+              <td className="px-3 w-5">
+                <PlayButtonSong params={paramId} playlistSongs={songs} />
               </td>
               <td className="px-4 py-2 flex gap-3 max-w-xs min-w-[10rem] md:min-w-[20rem]">
                 <picture>

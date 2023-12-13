@@ -2,9 +2,7 @@ import type { Config } from 'tailwindcss'
 
 const config: Config = {
   content: [
-    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+    "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
@@ -20,11 +18,10 @@ const config: Config = {
         "darker-white" : "rgb(230 230 230)"
       },
       maxHeight: {
-        "home": "57.2rem",
-        "playlist-aside": "44.4rem"
+        "home": "53rem",
       },
       minHeight: {
-        "playlist-aside": "44.4rem"
+        "home": "53rem",
       }
     },
   },
